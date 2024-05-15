@@ -5,17 +5,17 @@
 - Gabriel Santos de Oliveira Arruda - RA: 10388025
 - Paulo Henrique Sousa Camargo - RA: 10389453
 
-# APIs-gr-ficas# Pesquisa sobre API Gráfica: OpenGL
+# OpenGL
 
-## Descrição da API OpenGL
+## Descrição:
 
 A OpenGL (Open Graphics Library) é uma API gráfica que fornece uma maneira padronizada de acessar recursos gráficos de hardware. Ela é projetada para ser usada em aplicações que exigem gráficos 2D e 3D, como jogos, simulações científicas e aplicações de visualização de dados. A OpenGL é uma API de baixo nível que oferece controle direto sobre o hardware gráfico, permitindo aos desenvolvedores otimizar o desempenho e a eficiência dos gráficos.
 
-## Documentação da Pipeline pela OpenGL
+## Pipeline:
 
 A documentação da pipeline gráfica pela OpenGL é detalhada e abrange desde a especificação do OpenGL até a implementação de shaders e técnicas de renderização. A pipeline gráfica da OpenGL é composta por várias etapas, incluindo a especificação de vértices e atributos de vértices, transformação de vértices, culling, rasterização, sombreamento e composição. A documentação fornece informações detalhadas sobre como cada etapa funciona e como os desenvolvedores podem interagir com a pipeline para criar gráficos personalizados.
 
-## Linguagens de Shading Suportadas pela OpenGL
+## Linguagens de Shading Suportadas:
 
 A OpenGL suporta várias linguagens de shading, incluindo:
 
@@ -23,7 +23,7 @@ A OpenGL suporta várias linguagens de shading, incluindo:
 - **Cg (C for Graphics):** Uma linguagem de shading que também é usada para escrever shaders de vértices e fragmentos. Ela é suportada pela NVIDIA e pela AMD.
 - **HLSL (High-Level Shading Language):** Uma linguagem de shading da Microsoft usada principalmente em aplicações DirectX.
 
-## Exemplo de Código OpenGL
+## Exemplo de Código:
 
 ```cpp
 #include <GL/glew.h>
@@ -77,7 +77,7 @@ int main() {
     return 0;
 }
 ```
-## Exemplo de Código de Shader
+## Exemplo de Código de Shader:
 
 ```glsl
 #version 330 core // Define a versão do GLSL que estamos utilizando e o perfil core
@@ -96,11 +96,11 @@ void main() {
     vertexColor = vec3(0.0, 1.0, 0.0);
 }
 ```
-## Exemplo de Aplicação que Usa a OpenGL
+## Exemplo de Aplicação que Usa a OpenGL:
 
 Um exemplo de aplicação que usa a OpenGL é o Blender, um software de modelagem 3D e animação. O Blender usa a OpenGL para renderizar gráficos 3D em tempo real, permitindo aos artistas visualizar suas cenas e modelos em 3D. A integração da OpenGL permite ao Blender aproveitar o poder do hardware gráfico para renderizar gráficos complexos e detalhados.
 
-## Referências
+## Referências:
 
 - [OpenGL - Wikipedia](https://en.wikipedia.org/wiki/OpenGL)
 - [OpenGL Shading Language - Wikipedia](https://en.wikipedia.org/wiki/OpenGL_Shading_Language)
